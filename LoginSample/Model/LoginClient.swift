@@ -27,7 +27,6 @@ class LoginClient {
             } else {
                 completion(false, nil)
             }
-            
         } catch {
             print(error)
             completion(false, error)
